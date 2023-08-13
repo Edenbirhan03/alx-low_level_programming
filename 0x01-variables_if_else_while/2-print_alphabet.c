@@ -15,13 +15,13 @@ d = 'A';
 while
 (c <= 'z')
 {
-putchar(c);
+putchar(c, '\n');
 c++;
 }
 while
 (d <= 'Z')
 {
-putchar(d);
+putchar(d, '\n');
 d++;
 }
 return (0);
